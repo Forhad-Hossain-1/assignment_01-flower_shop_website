@@ -1,0 +1,256 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+}
+.bg primary {
+    color: #E55473;
+}
+
+
+/* Nav_Menu */
+    /* Site_Logo */
+.header {
+    background-color:#F9DFE4;
+    }
+
+.nav-title {
+    color: rgb(221, 12, 82);
+    font-size: 45px;
+    font-weight: 800;
+    margin-left: 120px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -44px;
+}
+nav li {
+    list-style: none;
+}
+.btn1 {
+    background-color: #E55473;
+    color: #ffffff;
+    font-weight: bold;
+    height: 40px;
+    width: 80px;
+    border: 0px;
+    border-radius: 8px;
+    border-color: #FFFFFF;
+    margin-right: 120px;
+    display: block;
+    margin-top: 30px;
+}
+.btn1:hover {
+    background-color: #662734;
+}
+
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+.header_text {
+    margin-left: 120px;
+    font-family: lato;
+}
+.header_h1{
+    margin-bottom: 30px;
+    font-size: 60px ;
+    font-weight: 900;
+}
+.header_p{
+    margin-right: 50px;
+    width: 450px;
+    color: #27272799;
+}
+.header_image{
+    height: 563px;
+    margin-right: 120px;
+    margin-left: 180px;
+}
+.header_image:hover{
+    opacity: 80%;
+}
+
+/* Main Section Styles */
+
+/* featured flowers */
+.our_featured_flower {
+    align-content: center;
+    margin-top: 120px;
+    }
+    .featured_title{
+        color: #272727;
+        font-size: 40px;
+        text-shadow: 2px 2px 3px grey;
+        text-align: center;
+    }
+    .our_featured_flower_paragraph {
+        text-align: center;
+        padding: 0px 350px 0px 350px;
+        font-size: 18px;
+        font-weight: 100px;
+        color: grey;
+        text-shadow: 1px 1px 3px gray;
+        line-height: 20px;
+    }
+
+.our_featured_flower_box {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+    .box1 img{
+        height: 300px;
+    }
+        .box_img1{
+                background-color: #F1DDE7;
+                padding: 100px 60px 0px 60px;
+                border-radius: 200px 200px 0px 0px;
+                gap: 20px;
+            }
+            .box_img2{
+                background-color: #D9EFF0;
+                padding: 100px 25px 0px 25px;
+                border-radius: 200px 200px 0px 0px;
+            }
+            .box_img3{
+                background-color: #E3EBDB;
+                padding: 100px 70px 0px 70px;
+                border-radius: 200px 200px 0px 0px;
+            }
+
+/* services styles */
+.service{
+    display: flex;
+    background-color: #F4F4F4;
+    width: 1060px;
+    margin: 0px auto;
+    border-radius: 10px;
+    justify-content: center;
+}
+    .service .service1{
+        text-align: center;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .s{
+        text-align: center;
+        
+    }
+
+
+/* Deal Styles */
+.hot_deal{
+    display: flex;
+    background-color: #F4F4F4;
+    margin: 100px auto;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    height: 350px;
+    align-items: center;
+}
+    .hot_deal_content {
+        text-align: center;
+    }
+    .dealbutton {
+        text-align: center;
+    }
+    .dealimage img {
+        width: 200px;
+    }
+    .btn2 {
+        background-color: #E55473;
+        color: #ffffff;
+        font-weight: bold;
+        height: 40px;
+        width: 80px;
+        border: 0px;
+        border-radius: 8px;
+        border-color: #FFFFFF;
+        margin-top: 30px;
+    }
+
+/* Instragram */
+#instagram_title {
+    text-shadow: none;
+}
+.instagram-photo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 120px;
+    height: 300px;
+}
+
+
+/* latest deals section styles */
+.latestdeals {
+    background-image: url('Assets/Rectangle 9.png');
+    width: 1100px;
+    height: 330px;
+    background-position: top;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.latestdeals img {
+    width: 1100px;
+    display: block;
+    margin: auto;
+}
+.subscribe-content {
+    text-align: center;
+    padding-top: 80px;
+}
+.textfield {
+    height: 40px;
+    width: 550px;
+    border: none;
+    border-radius: 8%;
+    margin-right: 8px;
+}
+.subbutton {
+    background-color: #E55473;
+    color: #ffffff;
+    font-weight: bold;
+    height: 40px;
+    width: 110px;
+    border: 0px;
+    border-radius: 8px;
+}
+/* follow us styles */
+.followus {
+    margin-top: 120px;
+    text-align: center;
+    background-color: rgb(255, 255, 203);
+    align-content: center;
+    width: 400px;
+    margin: 0px auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.followtitle {
+    text-align: center;
+}
+.follow-icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    height: 40px;
+}
+
+/* footer */
+.footer {
+    /* margin-top: 250px; */
+    background-color: black;
+    text-align: center;
+    padding: 60px;
+}
